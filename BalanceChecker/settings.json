@@ -1,0 +1,46 @@
+{
+	"remappings": [
+		"frax-std/=lib/frax-standard-solidity/src/",
+		"@eth-optimism/=lib/optimism/packages/",
+		"lib/optimism/packages/contracts-bedrock:src/=lib/optimism/packages/contracts-bedrock/src/",
+		"src/=src/",
+		"@openzeppelin-4/=node_modules/@openzeppelin-4/",
+		"@openzeppelin-5/=node_modules/@openzeppelin-5/",
+		"@openzeppelin/=node_modules/@openzeppelin/",
+		"@rari-capital/=node_modules/@rari-capital/",
+		"clones-with-immutable-args/=lib/optimism/packages/contracts-bedrock/lib/clones-with-immutable-args/src/",
+		"ds-test/=lib/frax-standard-solidity/lib/forge-std/lib/ds-test/src/",
+		"forge-std/=lib/frax-standard-solidity/lib/forge-std/src/",
+		"frax-standard-solidity/=lib/frax-standard-solidity/src/",
+		"kontrol-cheatcodes/=lib/optimism/packages/contracts-bedrock/lib/kontrol-cheatcodes/src/",
+		"lib-keccak/=lib/optimism/packages/contracts-bedrock/lib/lib-keccak/contracts/",
+		"openzeppelin-contracts-upgradeable/=lib/optimism/packages/contracts-bedrock/lib/openzeppelin-contracts-upgradeable/",
+		"openzeppelin-contracts/=lib/optimism/packages/contracts-bedrock/lib/openzeppelin-contracts/",
+		"optimism/=lib/optimism/",
+		"safe-contracts/=lib/optimism/packages/contracts-bedrock/lib/safe-contracts/contracts/",
+		"solady/=lib/optimism/packages/contracts-bedrock/lib/solady/",
+		"solidity-bytes-utils/=lib/frax-standard-solidity/lib/solidity-bytes-utils/",
+		"solmate/=lib/optimism/packages/contracts-bedrock/lib/solmate/src/"
+	],
+	"optimizer": {
+		"enabled": true,
+		"runs": 100000
+	},
+	"metadata": {
+		"useLiteralContent": false,
+		"bytecodeHash": "ipfs",
+		"appendCBOR": true
+	},
+	"outputSelection": {
+		"*": {
+			"*": [
+				"evm.bytecode",
+				"evm.deployedBytecode",
+				"abi"
+			]
+		}
+	},
+	"evmVersion": "paris",
+	"viaIR": false,
+	"libraries": {}
+}
